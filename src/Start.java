@@ -39,13 +39,7 @@ public class Start {
                 System.out.println(getRoomWithSchuppen);
 
         // map um die z.B. Koordinatenen mit && zu bekommen
-        Room getRoomKoordinaten = room
-                .stream()
-                .map(x -> "Schuppen".equals(x.getRoomX()))
 
-                .findFirst()
-                .orElse(null);
-        System.out.println(getRoomKoordinaten);
 
         //System.out.println("Liste: "+ room0.roomDescription);
         int currentX = 0;
